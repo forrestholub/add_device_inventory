@@ -4,8 +4,8 @@ Objective:
 Automatically pulls the devices settings using adb shell getprop commands and adds them nicely to an easy to read CSV file. 
 
 setup:
-Verify adb debug enabled on device
-Verify device is authorized for adb use on computer
+1. Verify adb debug enabled on device
+2. Verify device is authorized for adb use on computer
 
 
 
