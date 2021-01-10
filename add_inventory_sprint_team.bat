@@ -122,7 +122,7 @@ SET /p comments="14: Enter any additional information about device here:"
 
 
 :output
-ECHO %carrier%,%oem%,%model%,'%meid%','%imei%',%skued%,%activation%,%comments%>>Device_Inventory_Sprint.csv
+ECHO %carrier%,%oem%,%model%,%meid%,%imei%,%skued%,%activation%,%comments%>>Device_Inventory_Sprint.csv
 IF "%ERRORLEVEL%"=="1" do ECHO Be sure to close the CSV file before attempting to write to inventory. 
 
 ENDLOCAL
